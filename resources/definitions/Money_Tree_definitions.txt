@@ -1,0 +1,11 @@
+# default values for blocks
+default height:40 width:60 hit_points:1
+
+# block definitions
+bdef symbol:r fill:color(green)
+bdef symbol:y fill:color(blue)
+bdef symbol:w fill:image(background_images/bitcoin.png)
+bdef symbol:m fill:color(yellow)
+
+# spacers definitions
+sdef symbol:- width:60

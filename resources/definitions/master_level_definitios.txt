@@ -1,0 +1,84 @@
+# Level 1
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: money tree
+ball_velocities:250,550
+background:image(background_images/Money.jpg)
+paddle_speed:620
+paddle_width:170
+block_definitions:definitions/Money_Tree_definitions.txt
+blocks_start_x:15
+blocks_start_y:80
+row_height:42
+num_blocks:28
+START_BLOCKS
+-
+-
+-wwwwwwwwwww-
+-w-w-w-w-w-w-
+-wwwwwwwwwww-
+------------
+------------
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:tennis game
+ball_velocities:290,550 -310,550 -30,550 30,550
+background:image(background_images/tenis.jpg)
+paddle_speed:680
+paddle_width:140
+block_definitions:definitions/tenis_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:39
+START_BLOCKS
+-
+-
+---------bbbbbb
+------yyyyyyyyy
+----bbbbbbbbbbb
+--yyyyyyyyyyyyy
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# Complicated pattern
+
+
+
+START_LEVEL
+level_name: sniper
+ball_velocities:255,550 300,550 320,550
+background:image(background_images/sniper.jpg)
+paddle_speed:620
+paddle_width:200
+block_definitions:definitions/the_sniper_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:47
+START_BLOCKS
+-
+-
+-------y-------
+------yzy------
+-----yxzxy-----
+----yxxzxxy----
+yyyyxxxzxxxyyyy
+----yxxzxxy----
+-----yxzxy-----
+------yzy------
+-------y-------
+
+END_BLOCKS
+END_LEVEL
